@@ -47,3 +47,8 @@ body {
 .form {
     border-radius: 5px;
 }
+
+footer {
+    position: absolute;
+    bottom: 0px;
+}
