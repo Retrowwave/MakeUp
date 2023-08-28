@@ -23,6 +23,15 @@ ul {
 li {
     color: rgb(255, 255, 255);
     display: inline;
+    margin: 0 10px; /* Adicione margens horizontais para separar os elementos */
+}
+
+li:first-child {
+    margin-left: 0; /* Remova a margem à esquerda do primeiro elemento */
+}
+
+li:last-child {
+    margin-right: 0; /* Remova a margem à direita do último elemento */
 }
 
 li a {
