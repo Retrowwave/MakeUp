@@ -25,6 +25,15 @@ li {
     display: inline;
 }
 
+li a {
+    color: rgb(255, 255, 255);
+    transition: color 0.3s;
+}
+
+li a:hover {
+    color: lightgray;
+}
+
 img {
     max-width: 80px;
     max-height: 80px;
